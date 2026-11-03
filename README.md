@@ -18,8 +18,6 @@ Experiments with PyTorch and Hugging Face Diffusers: denoising networks, uncondi
 | `train_mnist_diffuser_ddpm.py` | Unconditional MNIST DDPM training and sampling |
 | `diffuser_example.py` | Pretrained face-generation model with DDIM sampling |
 | `train_mnist_diffuser.py`, `train_animeface_diffuser.py` | Earlier custom-UNet denoising experiments |
-| `stable_diff.py` | Incomplete COCO text-conditioning training draft, retained as experimental history |
-| `gru_exm.py` | Unrelated early pulse-signal experiment; see the separate [pulse-classification project](https://github.com/CNMH2Y/cnn-gru-pulse-classification) |
 
 The legacy scripts use historical APIs and local paths. Their original environment is not reconstructed here. The dependency list below applies to the new LoRA extension.
 
