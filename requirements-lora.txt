@@ -1,0 +1,12 @@
+# Reference API versions, not an end-to-end-tested environment lockfile.
+# Install a matching CUDA-enabled PyTorch build for your server first.
+torch>=2.2,<3
+diffusers==0.35.1
+transformers==4.56.2
+peft==0.17.1
+accelerate>=1.0,<2
+huggingface-hub>=0.34,<1
+safetensors>=0.4.3,<1
+numpy>=1.26,<3
+Pillow>=10,<13
+tqdm>=4.66,<5
